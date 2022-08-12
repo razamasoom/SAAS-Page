@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    padding:0;
+    margin: 0 ;
+    font-family: 'poppins';
+}
+header{
+    background-color: #7030cc;
+}
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    /* width: 100%; */
+    /* border: black solid 1px; */
+}
+.logo{
+    flex: 2 ;
+    margin-left: 50px;
+}
+.list-items{
+    flex: 2;
+}
+.button-container  {
+    flex: 1 ;
+}
+
+.list-item{
+    display:inline-block;
+    margin: 10PX;
+    color: #ffffff;
+}
+.list-item:hover{
+    color: #1bbcef ;
+    text-decoration: underline #ffff00;
+}
+.button-1{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color:#1bbcef ;
+    border: none;
+    color:#ffffff ;
+}
+/* nav bar end  */
+
+/* main */
+ .head-main{
+    display: flex;
+    height: 80vh;
+    justify-content: space-around;
+}
+.head-left{
+    margin-left: 50px;
+}
+.head-left h1{
+    margin: 40px;
+    margin-right: 250px;
+    font-size:50px;
+    color: #ffffff;
+}
+.head-left p {
+    margin-left: 40px;
+    margin-right: 200px;
+    color: #ffffff;
+}
+.hero-img{
+    height: 650px;
+} 
+
+/* main end */
+
+/* main-1 start */
+ .main-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 30px;
+    padding-left: 100px;
+ }
+ .hero2img{
+    height: 550px;
+    margin-top: -30px;
+ }
+ .main-1-right h1 {
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    ;
+ }
+.bullet{
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bullet h3{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+/* main-1 end  */
+
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 40px; }
+
+    .card  {
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0 30px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 10px 0px 13px rgba(0, 0, 0, 0.17);
+    }
+    .card-logo {
+        height: 150px;
+        justify-content: center;
+    }
+     .card-body:hover{
+        background-color: #7030cc;
+        color: #ffffff;
+        border-radius: 20px;
+    }
+    .card-head:hover{
+        background-color: #7030cc;
+        color: #ffffff;
+        border-radius: 20px;
+    }
+    
