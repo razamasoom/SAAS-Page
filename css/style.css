@@ -138,4 +138,30 @@ nav{
         color: #ffffff;
         border-radius: 20px;
     }
-    
+
+    @media (max-width: 700px) {
+.list-items{
+    display:none;
+}
+.head-main{
+  
+    width: 100%;
+}
+.head-right{
+    display:none;
+}
+.main-1{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+.main-1-left img {
+    height: 400px;
+}
+
+
+
+    }
